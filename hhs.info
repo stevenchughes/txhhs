@@ -1,0 +1,167 @@
+name         = HHS v1
+description  = HHS theme version 1
+core         = 7.x
+engine       = phptemplate
+release      = 7.x-3.x
+screenshot   = screenshot.png
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+;Core regions
+
+	regions[top_right] 			= 'Top right'
+	regions[scroll_menu] 		= 'Scroll menu'
+	
+; regions[search] = 'Search header 2'
+
+	regions[leaderboard]          = 'Leaderboard'
+	regions[menu_a2z]		     = 'A-to-Z Menu'
+	regions[search]               = 'Search'
+	regions[pers_nav]             = 'Persistent Navigation'
+	regions[main_menu] 			= 'Main menu'
+	
+; regions[slider] 			= 'Slider'
+	
+; regions[content] = 'Main Content'
+
+	regions[page_title_right] 	= 'Page title right'
+	regions[section] 			= 'Section content'
+	regions[section_with_sidebar] = 'Section with sidebar'
+	; regions[sidebar_two] 		= 'Sidebar two'
+	
+; regions[sidebar_second] = 'Sidebar right'
+
+	regions[bottom_product] = 'Bottom product'
+	regions[bottom_estate] = 'Bottom Estate'
+	regions[footer] = 'Footer'
+	regions[footer_menu] = 'Footer menu'
+
+; regions[highlighted] = 'highlighted '
+
+	regions[sidebar_first]        = 'Sidebar First'
+  	regions[sidebar_second]       = 'Sidebar Second'
+  
+  	regions[content]              = 'Main Content'
+  	regions[highlighted]          = 'Highlighted'
+	regions[content_aside]        = 'Aside'
+  	regions[secondary_content]    = 'Secondary'
+  	regions[tertiary_content]     = 'Tertiary'
+  	regions[content_bottom]       = 'Content Bottom'
+  	regions[jumbotron]		     = 'Jumbotron'
+  	regions[hp_chevron]     	     = 'HP Chevron'
+  
+  	regions[inset]                = 'Inset'
+	
+     regions[content_bottom_left]     = 'Content Bottom Left'
+     regions[content_bottom_right]    = 'Content Bottom Right'
+  
+  regions[footer_1]             = 'Footer 1'
+  regions[footer_2]             = 'Footer 2'
+  regions[footer_3]             = 'Footer 3'
+  regions[footer_4]             = 'Footer 4'
+    
+  regions[help]                 = 'Help'
+  regions[page_top]             = 'Page top'
+  regions[page_bottom]          = 'Page bottom'
+  
+  regions[header]               = 'Header'
+  
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+	; Bootstrap minified
+	stylesheets[all][] = css/bootstrap.min.css
+	
+	; CSS3 Aniomations
+	stylesheets[all][] = css/animate.css
+
+	; Custom Scrollbar
+	stylesheets[all][] = css/jquery.mCustomScrollbar.css
+	
+	; Font Awesome
+	stylesheets[all][] = css/font-awesome/css/font-awesome.min.css
+	
+	; Colobox Skin Stylesheet
+	stylesheets[all][] = css/colorbox-skins/4/colorbox.css
+	
+	; Componenents Stylesheet
+	stylesheets[all][] = css/component.css
+	
+	; Typography Stylesheet
+	stylesheets[all][] = css/typography.css
+
+	; Main Stylesheet
+	; stylesheets[all][] = css/main.css
+	
+	; Settings Stylesheet
+	stylesheets[all][] = css/settings.css
+	
+	; Media Queries
+	stylesheets[all][] = css/responsive.css
+	
+	; Style updates
+	stylesheets[all][] = css/update.css
+
+; stylesheets[all][] = css/bootstrap.css
+; stylesheets[all][] = css/global.css
+  stylesheets[all][] = css/style.css
+; stylesheets[all][] = css/colors.css
+; stylesheets[all][] = css/main.css
+
+  stylesheets[screen][] = css/bootstrap-theme.css
+  stylesheets[screen][] = css/global.base.css
+  stylesheets[screen][] = css/global.styles.css
+  stylesheets[screen][] = css/drupal-styles.css
+; stylesheets[screen][] = css/hhs.css
+; stylesheets[screen][] = css/styles.css
+; stylesheets[screen][] = css/overrides.css
+  stylesheets[screen][] = css/mega-menu.css
+; stylesheets[screen][] = css/flexslider.css
+  
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+; scripts[] = 'js/bootstrap.min.js'
+; scripts[] = 'js/raphael-min.js'
+; scripts[] = 'js/DevSolutionSkill.min.js'	
+; scripts[] = 'js/jquery.appear.js'
+; scripts[] = 'js/jquery.countTo.js'
+; scripts[] = 'js/progress.js'
+; scripts[] = 'js/scripts.js'
+; scripts[] = 'js/hhsmain.js'
+scripts[] = js/vendor/jquery-1.11.0.min.js
+; scripts[] = js/uniform.js
+scripts[] = js/template.js
+; scripts[] = js/responsive.js
+scripts[] = js/libs/modernizr-2.0.6.min.js
+
+; scripts[] = js/libs/gumby.min.js
+
+scripts[] = js/jquery.flexslider-min.js
+;scripts[] = js/modernizr.custom.js
+
+
+scripts[] = js/jquery.isotope.min.js
+
+; scripts[] = js/vendor/modernizr-2.6.2-respond-1.1.0.min.js
+; scripts[] = js/vendor/jquery-1.11.0.min.js
+; scripts[] = js/bootstrap.min.js
+; scripts[] = js/jquery.mCustomScrollbar.min.js
+; scripts[] = js/jquery.mousewheel.min.js
+; scripts[] = js/jquery.colorbox-min.js
+; scripts[] = js/preloadCssImages.jQuery_v5.js
+; scripts[] = js/jquery.stellar.min.js
+; scripts[] = js/masonry.pkgd.min.js
+; scripts[] = js/imagesloaded.pkgd.min.js
+; scripts[] = js/jquery.rivarthemes.js
+  scripts[] = js/hhs.js
+; scripts[] = js/update.js
+
+
+; Disable BootstrapCDN so the compiled LESS source files can be used.
+settings[bootstrap_cdn] = ''
